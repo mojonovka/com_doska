@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<extention type="component" version="3.0" method="upgrade">
+
+    <name>COM_DOSKA</name>
+    <creationDate>2015-04-02</creationDate>
+    <author>WfMS</author>
+    <authorEmail>admin@admin.ru</authorEmail>
+    <authorUrl>http://webformyself.com</authorUrl>
+    <copyright>Copyridht info</copyright>
+    <license>License info</license>
+    <version>1.0.0</version>
+    <description>Description of the component</description>
+
+    <files folder="site">
+
+        <folder>assets</folder>
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+        <folder>language</folder>
+        <folder>models</folder>
+        <folder>tables</folder>
+        <folder>views</folder>
+
+        <filename>controller.php</filename> 
+        <filename>doska.php</filename>
+        <filename>index.html</filename>    
+    
+    </file>
+
+    <administration>
+
+        <menu link="option=com_doska">Doska</menu>
+        <submenu>
+            <menu view="messages">Messages</menu>
+            <menu view="categories">Categories</menu>
+        </submenu>
+
+        <files folder="admin">
+
+            <folder>assets</folder>
+            <folder>controllers</folder>
+            <folder>helpers</folder>
+            <folder>language</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+
+            <filename>access.xml</filename> 
+            <filename>config.xml</filename> 
+            <filename>controller.php</filename> 
+            <filename>doska.php</filename>
+            <filename>index.html</filename> 
+
+        </files>
+
+    </administration>
+
+
+
+
+
+
+</extention>
