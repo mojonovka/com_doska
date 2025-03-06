@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<extention type="component" version="3.0" method="upgrade">
+<extension type="component" version="3.0" method="upgrade">
 
     <name>COM_DOSKA</name>
     <creationDate>2015-04-02</creationDate>
@@ -11,6 +11,24 @@
     <license>License info</license>
     <version>1.0.0</version>
     <description>Description of the component</description>
+
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.sql</file>
+        </sql>    
+    </install>
+
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.sql</file>
+        </sql>
+    </uninstall>
+
+    <update>
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
 
     <files folder="site">
 
@@ -26,7 +44,7 @@
         <filename>doska.php</filename>
         <filename>index.html</filename>    
     
-    </file>
+    </files>
 
     <administration>
 
@@ -57,9 +75,4 @@
 
     </administration>
 
-
-
-
-
-
-</extention>
+</extension>
