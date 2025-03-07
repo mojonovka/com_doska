@@ -12,6 +12,8 @@
     <version>1.0.0</version>
     <description>COM_DOSKA_XML_DESCRIPTION</description>
 
+    <scriptfile>install.php</scriptfile>
+
     <install>
         <sql>
             <file driver="mysql" charset="utf8">sql/install.mysql.sql</file>
@@ -30,6 +32,10 @@
         </schemas>
     </update>
 
+    <languages folder="site">
+        <language tag="ru-RU"><language/ru-RU/ru-RU.com_doska.ini/language>
+    </languages>
+
     <files folder="site">
 
         <folder>assets</folder>
@@ -46,9 +52,14 @@
     
     </files>
 
+    <media destination="com_doska" folder="media">
+        <folder>images</folder>
+        <filemane>index.html</filename>
+    </media>
+
     <administration>
 
-        <menu link="option=com_doska">COM_DOSKA_MENU_NAME</menu>
+        <menu img="../media/com_doska/images/icon.png" link="option=com_doska">COM_DOSKA_MENU_NAME</menu>
         <submenu>
             <menu view="messages">COM_DOSKA_MENU_MESSAGES</menu>
             <menu view="categories">COM_DOSKA_MENU_CATEGORIES</menu>
@@ -73,6 +84,10 @@
             <filename>index.html</filename> 
 
         </files>
+        <languages folder="admin">
+            <language tag="ru-RU">language/ru-RU/ru-RU.com_doska.ini</language>
+            <language tag="ru-RU">language/ru-RU/ru-RU.com_doska.sys.ini</language>
+        </languages>
 
     </administration>
 
