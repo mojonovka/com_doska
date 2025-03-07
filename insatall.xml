@@ -10,7 +10,7 @@
     <copyright>Copyridht info</copyright>
     <license>License info</license>
     <version>1.0.0</version>
-    <description>Description of the component</description>
+    <description>COM_DOSKA_XML_DESCRIPTION</description>
 
     <install>
         <sql>
@@ -48,10 +48,11 @@
 
     <administration>
 
-        <menu link="option=com_doska">Doska</menu>
+        <menu link="option=com_doska">COM_DOSKA_MENU_NAME</menu>
         <submenu>
-            <menu view="messages">Messages</menu>
-            <menu view="categories">Categories</menu>
+            <menu view="messages">COM_DOSKA_MENU_MESSAGES</menu>
+            <menu view="categories">COM_DOSKA_MENU_CATEGORIES</menu>
+            <menu view="types">COM_DOSKA_MENU_TYPES</menu>
         </submenu>
 
         <files folder="admin">
