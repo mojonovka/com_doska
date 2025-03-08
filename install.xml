@@ -33,7 +33,7 @@
     </update>
 
     <languages folder="site">
-        <language tag="ru-RU"><language/ru-RU/ru-RU.com_doska.ini/language>
+        <language tag="ru-RU">language/ru-RU/ru-RU.com_doska.ini</language>
     </languages>
 
     <files folder="site">
