@@ -53,6 +53,7 @@
     </files>
 
     <media destination="com_doska" folder="media">
+        <folder>css</folder>
         <folder>images</folder>
         <filename>index.html</filename>
     </media>

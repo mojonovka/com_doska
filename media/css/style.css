@@ -1,0 +1,10 @@
+
+.icon-doskatitle {
+    background-image: url("../images/icon.png");
+    width: 17px !important;
+    height: 17px !important;
+}
+
+.icon-doskabutton {
+    background-image: url("../images/icon.png");
+}
