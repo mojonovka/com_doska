@@ -54,7 +54,7 @@
 
     <media destination="com_doska" folder="media">
         <folder>images</folder>
-        <filemane>index.html</filename>
+        <filename>index.html</filename>
     </media>
 
     <administration>

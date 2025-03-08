@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `#__doska_post`(
 
     PRIMARY KEY (`id`)
 
-) ENGINE=InnoDB DEFAULT CHARSET=utf-8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 CREATE TABLE IF NOT EXISTS `#__doska_types` (
