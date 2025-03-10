@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8">
+<form>
+
+<fieldset name='basic'>
+
+    <field name='id' type='hidden'></field>
+
+    <field 
+        name = 'name' 
+        type = 'text' 
+        value = '' 
+        default = '' 
+        lable = 'COM_DOSKA_TYPE_FIELD_TITLE'
+        description = 'COM_DOSKA_TYPE_FIELD_TITLE_DESC'
+        requires = 'true'
+        >
+    </field>
+
+    <field 
+        name = 'alias' 
+        type = 'text' 
+        value = '' 
+        default = '' 
+        lable = 'COM_DOSKA_TYPE_FIELD_ALIAS'
+        description = 'COM_DOSKA_TYPE_FIELD_ALIAS_DESC'
+        >
+    </field>
+
+</fieldset>
+
+</form>

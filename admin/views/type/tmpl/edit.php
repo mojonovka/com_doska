@@ -2,6 +2,6 @@
 
 defined("_JEXEC") or die();
 
-echo "new";
+echo $this->form->renderFieldset('basic');
 
 ?>

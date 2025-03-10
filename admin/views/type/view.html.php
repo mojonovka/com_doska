@@ -2,11 +2,15 @@
 
 defined("_JEXEC") or die();
 
-class DoskaViewType extends jViewLegacy {
+class DoskaViewType extends JViewLegacy {
 
     protected $form;
 
     public function display($tmpl = null){
+
+        //$model = JModalLegacy::getInstance('newm', 'DoskaModel');
+        //$this->setModel($model);        
+        //$this->form = $this->get('Test', 'newm');
 
         $this->form = $this->get('Form');//getForm
 

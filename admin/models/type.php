@@ -6,8 +6,11 @@ class DoskaModelType extends JModelAdmin {
 
     public function getForm($data = array(), $loadData = true){
 
-        $form = array (1,2,3,4);
+        $form = $this->loadForm($this->option.'type', 'type', array('control'=>'jform','load_data'=>$loadData));
 
+        if(empty($form)){
+            return false;
+        }
 
         return $form;
 
